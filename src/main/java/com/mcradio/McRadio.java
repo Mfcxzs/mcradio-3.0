@@ -133,7 +133,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
-import net.minecraftforge.client.event.RenderGuiEvent;
 import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraftforge.event.network.CustomPayloadEvent;
 import net.minecraftforge.event.server.ServerStoppedEvent;
@@ -4332,8 +4331,8 @@ public final class McRadio {
             }
         }
 
-        @SubscribeEvent
-        public static void onRender(RenderGuiEvent.Post event) {
+        /** Draws the HUD. Not hooked to a Forge event yet (the HUD event class differs between Forge builds). */
+        public static void render(GuiGraphics graphics) {
             Minecraft minecraft = Minecraft.getInstance();
             LocalPlayer player = minecraft.player;
             ClientLevel level = minecraft.level;
@@ -4359,7 +4358,6 @@ public final class McRadio {
             }
 
             Font font = minecraft.font;
-            GuiGraphics graphics = event.getGuiGraphics();
             int zone = shielded ? RadioPhysics.ZONE_SHIELDED : RadioPhysics.ZONE_OPEN;
             boolean jammed = false;
             if (mapItem) {
