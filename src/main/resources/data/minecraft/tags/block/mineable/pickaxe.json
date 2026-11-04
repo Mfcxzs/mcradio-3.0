@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "mcradio:signal_station",
+    "mcradio:signal_transmitter",
+    "mcradio:signal_repeater",
+    "mcradio:signal_receiver",
+    "mcradio:signal_computer",
+    "mcradio:signal_jammer",
+    "mcradio:wall_speaker",
+    "mcradio:horn_speaker",
+    "mcradio:industrial_speaker"
+  ]
+}

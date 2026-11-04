@@ -1,0 +1,7 @@
+{
+  "parent": "mcradio:block/industrial_speaker",
+  "textures": {
+    "led": "mcradio:block/led_on",
+    "front": "mcradio:block/industrial_speaker_front_on"
+  }
+}

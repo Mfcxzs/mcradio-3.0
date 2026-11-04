@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IBI",
+    "NAN",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "mcradio:shielded_board"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "A": {
+      "item": "mcradio:army_receiver"
+    }
+  },
+  "result": {
+    "id": "mcradio:industrial_speaker",
+    "count": 1
+  }
+}

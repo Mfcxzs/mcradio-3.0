@@ -1,0 +1,6 @@
+{
+  "parent": "mcradio:block/horn_speaker",
+  "textures": {
+    "led": "mcradio:block/led_on"
+  }
+}

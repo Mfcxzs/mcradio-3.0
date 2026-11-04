@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IKI",
+    "NBN",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "mcradio:military_cable"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "B": {
+      "item": "mcradio:shielded_board"
+    }
+  },
+  "result": {
+    "id": "mcradio:army_receiver",
+    "count": 1
+  }
+}

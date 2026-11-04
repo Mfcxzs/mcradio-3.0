@@ -1,0 +1,7 @@
+{
+  "parent": "mcradio:block/wall_speaker",
+  "textures": {
+    "led": "mcradio:block/led_on",
+    "front": "mcradio:block/wall_speaker_front_on"
+  }
+}

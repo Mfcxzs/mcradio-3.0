@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BBB",
+    "CCC",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "mcradio:military_cable",
+    "count": 3
+  }
+}

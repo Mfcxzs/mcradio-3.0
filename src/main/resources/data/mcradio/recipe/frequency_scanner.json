@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " S ",
+    "IBI",
+    "IKI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:spyglass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "mcradio:shielded_board"
+    },
+    "K": {
+      "item": "mcradio:military_cable"
+    }
+  },
+  "result": {
+    "id": "mcradio:frequency_scanner",
+    "count": 1
+  }
+}
